@@ -1,0 +1,191 @@
+.theme-primary {
+    --color-primary: #0060df;
+    --color-secondary: #224abe;
+    --color-accent: #fd6f53;
+    --font-color: #ffffff;
+
+    --color-gradient: #4e73df;
+}
+
+.theme-secondary {
+    --color-primary: #17ed90;
+    --color-secondary: #243133;
+    --color-accent: #12cdea;
+    --font-color: #ffffff;
+
+    --color-gradient: #858796;
+}
+
+.theme-dark {
+    --color-primary: #17ed90;
+    --color-secondary: #373840;
+    --color-accent: #12cdea;
+    --font-color: #ffffff;
+
+    --color-gradient: #5a5c69;
+}
+
+.theme-warning {
+    --color-primary: #17ed90;
+    --color-secondary: #dda20a;
+    --color-accent: #12cdea;
+    --font-color: #ffffff;
+
+    --color-gradient: #f6c23e;
+}
+
+
+
+.bg-gradient-primary {
+    background-image: linear-gradient(180deg, var(--color-gradient) 10%, var(--color-secondary) 100%);
+    var(--color-primary);
+}
+
+.btn-primary {
+    background-color: var(--color-secondary);
+    border-color: solid var(--color-secondary);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-gradient);
+    border-color: solid var(--color-secondary);
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: var(--font-color);
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary);
+}
+
+.page-link {
+    color: var(--color-gradient);
+}
+
+.page-link:hover {
+    color: var(--color-gradient);
+}
+
+.topbar .dropdown-list .dropdown-header {
+    background-color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    color: var(--color-gradient);
+}
+
+.text-primary {
+    color: var(--color-secondary) !important;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    background-color: var(--color-gradient);
+    border-color: var(--color-gradient);
+}
+
+.modal-confirm {
+    color: #636363;
+    width: 400px;
+}
+
+.modal-confirm .modal-content {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+.modal-confirm .modal-header {
+    border-bottom: none;
+    position: relative;
+}
+
+.modal-confirm h4 {
+    text-align: center;
+    font-size: 26px;
+    margin: 30px 0 -10px;
+}
+
+.modal-confirm .close {
+    position: absolute;
+    top: -5px;
+    right: -2px;
+}
+
+.modal-confirm .modal-body {
+    color: #999;
+}
+
+.modal-confirm .modal-footer {
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 10px 15px 25px;
+}
+
+.modal-confirm .modal-footer a {
+    color: #999;
+}
+
+.modal-confirm .icon-box {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+    z-index: 9;
+    text-align: center;
+    border: 3px solid #f15e5e;
+}
+
+.modal-confirm .icon-box i {
+    color: #f15e5e;
+    font-size: 46px;
+    display: inline-block;
+    margin-top: 13px;
+}
+
+.modal-confirm .btn,
+.modal-confirm .btn:active {
+    color: #fff;
+    border-radius: 4px;
+    background: #60c7c1;
+    text-decoration: none;
+    transition: all 0.4s;
+    line-height: normal;
+    min-width: 120px;
+    border: none;
+    min-height: 40px;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.modal-confirm .btn-secondary {
+    background: #c1c1c1;
+}
+
+.modal-confirm .btn-secondary:hover,
+.modal-confirm .btn-secondary:focus {
+    background: #a8a8a8;
+}
+
+.modal-confirm .btn-danger {
+    background: #f15e5e;
+}
+
+.modal-confirm .btn-danger:hover,
+.modal-confirm .btn-danger:focus {
+    background: #ee3535;
+}
+
+.btn-circle {
+    border-radius: 5px;
+    height: 2.5rem;
+    width: 100%;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
