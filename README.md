@@ -1,8 +1,8 @@
-# WebProfil
+# Website MTsN 4 Aceh Besar
 
-WebProfil merupakan projek dari mtsn 4 banda aceh
+Sistem Informasi berbasis website pada MTsN 4 Aceh Besar
 
-### Update (lakukan sintaks ini sekarang ya)
+### Update
 
 ```
     $ composer update
@@ -17,42 +17,52 @@ WebProfil merupakan projek dari mtsn 4 banda aceh
 ### Akun
 
 ```
-email    : admin@gmail.com
-password : admin1234
-```
+(Lihat Pada File AkunSeeder)
 
 ### Setup
 
-Lakukan ini jika pertama kali mau clone repo
+Lakukan ini jika pertama kali clone repo
 
 1. Install [composer](https://getcomposer.org/)
 2. Clone repo
 3. Install dependencies
 
 ```
+
     $ composer install
+
 ```
 
 4. Buat file .env di terminal wsl -> `$ bash`
 
 ```
+
     $ cp env .env
+
 ```
 
 ### How to run
 
 ```
+
     $ php spark serve
+
 ```
 
 ### Add Table
 
 ```
+
     $ php spark migrate:create [nama tabel]
+
 ```
 
 ### Drop Table
 
 ```
+
     $ php spark migrate:rollback
+
+```
+
 ```
