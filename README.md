@@ -19,6 +19,8 @@ Sistem Informasi berbasis website pada MTsN 4 Aceh Besar
 ```
 (Lihat Pada File AkunSeeder)
 
+```
+
 ### Setup
 
 Lakukan ini jika pertama kali clone repo
@@ -62,6 +64,8 @@ Lakukan ini jika pertama kali clone repo
 ```
 
     $ php spark migrate:rollback
+
+```
 
 ```
 
